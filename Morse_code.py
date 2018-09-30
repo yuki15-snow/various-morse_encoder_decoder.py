@@ -14,6 +14,6 @@ while True:
         print(''.join([decode[encode.index(result_de(i))] for i in range(len(I))]))
     elif IN == 'encode':
         I = list(input("encode code: "))
-        print(str(s).join([result_en(encode[decode.index(I[i])]) for i in range(len(I)) for j in range(len(I[i]))]))
+        print('----- result -----\n\n'+str(s).join([result_en(encode[decode.index(I[i])]) for i in range(len(I)) for j in range(len(I[i]))]))
     elif IN == 'exit()':
         break
