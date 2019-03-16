@@ -1,4 +1,4 @@
-# various-morse_encoder_decoder.py  
+# morsenya.py  
 
 ### STEP.1 判別文字の設定  
 予想しているフォーマットは「ツー（ー）¥トン（・）¥スペース」です。  
